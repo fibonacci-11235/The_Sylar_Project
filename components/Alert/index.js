@@ -22,12 +22,15 @@ const Alert = () => (
                 <h3 className="text-sm font-medium text-yellow-800">Attention</h3>
                 <div className="mt-2 text-sm text-yellow-700">
                     <p>
-                        If you are in crisis and need immediate help please contact 800-273-8255.
-                        Alternatively a{' '}
+                        If you are in crisis and need immediate help, please contact
+                        {' '}<a className="underline" href="tel:8002738255">
+                        800-273-8255
+                        </a>
+                        .{' '}Alternatively, a{' '}
                         <a className="underline" href="https://suicidepreventionlifeline.org/chat/">
                             {' '}
-                            lifeline chat is available.{' '}
-                        </a>
+                            lifeline chat is available
+                        </a>.
                     </p>
                 </div>
             </div>
